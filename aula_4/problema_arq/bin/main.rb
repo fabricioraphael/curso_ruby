@@ -21,7 +21,7 @@ end
 
 File.open("arq_1.txt", 'w') do |file|
   x = 0
-  while x < arq1.size
+  arq2.each do |arq|
     file.write arq1[x]
     x += 1
   end
@@ -29,7 +29,7 @@ end
 
 File.open("arq_2.txt", 'w') do |file|
   x = 0
-  while x < arq2.size
+  arq2.each do |arq|
     file.write arq2[x]
     x += 1
   end
@@ -37,7 +37,7 @@ end
 
 File.open("arq_3.txt", 'w') do |file|
   x = 0
-  while x < arq3.size
+  arq2.each do |arq|
     file.write arq3[x]
     x += 1
   end
